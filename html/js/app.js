@@ -21,3 +21,5 @@ console.log("h = " + h.calc());
 console.dir(os);
 console.dir(fs);
 console.dir(fs.readFileSync("html/index.html", "utf-8"));
+console.dir(fs.readFileSync("html/index.html", "utf-8"));
+console.dir(fs.readFileSync("html/index.html", "utf-8"));
