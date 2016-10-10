@@ -1,0 +1,18 @@
+{
+  "name": "preprocess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "fast-live-reload html -ep \"tsc -w --rootDir src/ts --outDir html/js\" -ep \"node-sass -w -r -o html/css src/scss\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "fast-live-reload": "^2.7.0",
+    "node-sass": "^3.10.1",
+    "typescript": "^2.0.3"
+  }
+}
