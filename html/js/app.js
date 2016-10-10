@@ -1,3 +1,6 @@
+"use strict";
+var os = require('os');
+var fs = require('fs');
 var Hello = (function () {
     function Hello() {
         this.num1 = 10;
@@ -15,3 +18,6 @@ var h = new Hello();
 console.log("h = " + h.calc());
 console.log("h = " + h.calc());
 console.log("h = " + h.calc());
+console.dir(os);
+console.dir(fs);
+console.dir(fs.readFileSync("html/index.html", "utf-8"));

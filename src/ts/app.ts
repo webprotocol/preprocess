@@ -1,4 +1,6 @@
 
+import * as os from 'os';
+import * as fs from 'fs';
 
 class Hello {
     num1: number = 10;
@@ -18,3 +20,7 @@ var h = new Hello();
 console.log("h = " + h.calc());
 console.log("h = " + h.calc());
 console.log("h = " + h.calc());
+console.dir(os);
+console.dir(fs);
+console.dir(fs.readFileSync("html/index.html", "utf-8"));
+
